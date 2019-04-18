@@ -1,0 +1,1 @@
+package jmeter.demo;/** * @program: jmeter-test * @description: main函数 * @author: gonghuihui * @create: 2019-04-15 16:23 **/public class BeanShellEgMain {    public static void main(String[] args) {        BeanShellEg beanShellEg = new BeanShellEg("yulu");        System.out.println(beanShellEg.getUserName());    }}

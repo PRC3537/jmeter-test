@@ -1,0 +1,1 @@
+import jmeter.demo.BeanShellEg;import org.testng.annotations.Test;/** * @program: jmeter-test * @description: * @author: gonghuihui * @create: 2019-04-15 16:01 **/public class TestBeanShellEg {    @Test    public void testBeanShellEg() {        BeanShellEg beanShellEg = new BeanShellEg("yulu");        System.out.println(beanShellEg.getUserName());    }}
